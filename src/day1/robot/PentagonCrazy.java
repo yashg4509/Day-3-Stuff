@@ -22,7 +22,7 @@ public class PentagonCrazy {
 		// 5. Make a variable for the angle you want the robot to turn. Hint: you can divide in Java using "/". Can’t test until step 6.
 			int angle = 360/sides;
 		// 7. Do steps #2 to #11, 200 times. When this is done you should see a pentagon.
-			for (int i = 0; i < 8000; i++) {
+			for (int i = 0; i < 200; i++) {
 				R2.move(i);
 				R2.penDown();
 				R2.turn(angle);
